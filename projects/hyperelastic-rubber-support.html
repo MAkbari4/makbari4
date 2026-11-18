@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Modelling the static response of a steel–rubber mount under imposed displacement and a non-uniform pressure load.">
+  <title>Nonlinear Analysis of Hyperelastic Rubber Support · Mohammad Akbari</title>
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap">
+      <a class="brand" href="../index.html"><span class="initials" aria-hidden="true">MA</span>Mohammad Akbari</a>
+      <nav class="header-links" aria-label="Portfolio navigation">
+        <a href="../index.html#projects">All projects</a><a href="https://www.linkedin.com/in/makbari4">LinkedIn</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap coursework project-main" id="main">
+    <div class="hero case-hero">
+      <div class="hero-grid wrap">
+        <div>
+          <p class="kicker">Academic team project</p>
+          <h1>Nonlinear Analysis of Hyperelastic Rubber Support</h1>
+          <p class="summary">Modelling the static response of a steel–rubber mount under imposed displacement and a non-uniform pressure load.</p>
+          </div>
+        <dl class="facts">
+          <div><dt class="kicker">Software</dt><dd>ANSYS Workbench</dd></div>
+          <div><dt class="kicker">Period</dt><dd>September 2024 to January 2025</dd></div>
+        </dl>
+      </div>
+    </div>
+    <div class="wrap case-frame"><nav class="contents case-nav" aria-label="On this page">
+            <span class="toc-label" aria-hidden="true">On this page</span><a href="#introduction">Introduction</a><a href="#method">Method</a><a href="#results">Results</a>
+          </nav>
+        <div class="case-content"><section class="chapter" id="introduction" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Introduction</h2>
+      <div class="chapter-body"><p class="lead">The exercise compared how a steel–rubber support responds to vertical and lateral displacement and how its reaction forces develop under a spatially varying pressure. The hyperelastic model accounted for the rubber’s nonlinear response at large strains.</p></div>
+    </section>
+    <section class="chapter" id="method" aria-labelledby="method-heading">
+      <h2 id="method-heading">Method</h2>
+      <div class="chapter-body">
+        <div class="method-grid">
+          <section><h3>Baseline model</h3><p>We set up a linear steel–rubber model in ANSYS Workbench using the supplied geometry and checked the vertical and lateral reactions to imposed displacements.</p></section>
+          <section><h3>Nonlinear material and loading</h3><p>We fitted a nine-parameter Mooney–Rivlin model to supplied uniaxial, biaxial and shear data. A pressure field from a comma-separated values (CSV) file was imported in cylindrical coordinates.</p></section>
+          <section><h3>My contribution</h3><p>I carried out modelling work with teammate support, contributed substantially to the report and shared interpretation of the simulation outputs.</p></section>
+        </div>
+        <div class="coursework-figures figure-grid">
+          <figure class="figure">
+            <a href="../assets/figures/rubber-components.webp" aria-label="View full-size image: Support geometry and materials">
+              <img src="../assets/figures/rubber-components.webp" alt="Support geometry and materials" width="604" height="502" loading="lazy">
+            </a>
+            <figcaption><span class="figure-label">Support geometry and materials.</span> The conical rubber element sits between steel parts. The two material regions were assigned separate constitutive properties.</figcaption>
+          </figure>
+          <figure class="figure">
+            <a href="../assets/figures/rubber-test-data.webp" aria-label="View full-size image: Inputs for the hyperelastic model">
+              <img src="../assets/figures/rubber-test-data.webp" alt="Inputs for the hyperelastic model" width="819" height="547" loading="lazy">
+            </a>
+            <figcaption><span class="figure-label">Inputs for the hyperelastic model.</span> The supplied uniaxial, biaxial and shear curves were used to fit the rubber’s large-strain response.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="chapter" id="results" aria-labelledby="results-heading">
+      <h2 id="results-heading">Results</h2>
+      <div class="chapter-body">
+        <div class="text result-copy">
+          <p>The linear model resisted vertical displacement more strongly than lateral displacement. Under the non-uniform pressure case, the nonlinear simulation showed a predominantly vertical reaction.</p>
+          <p>The comparison describes the response under the modelled static loads. Assessing damping or vibration isolation would require a dynamic study.</p>
+        </div>
+        <div class="coursework-figures figure-grid single-figure">
+          <figure class="figure">
+            <a href="../assets/figures/rubber-pressure.webp" aria-label="View full-size image: Imported pressure field">
+              <img src="../assets/figures/rubber-pressure.webp" alt="Imported pressure field" width="1346" height="548" loading="lazy">
+            </a>
+            <figcaption><span class="figure-label">Imported pressure field.</span> The arrows show where the prescribed pressure was applied to the upper plate. The colour scale shows the input pressure distribution used to calculate the reaction forces.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </div></div></main>
+  <footer class="page-footer"><div class="wrap"><p>Mohammad Akbari · Turin, Italy</p><a href="#top">Back to top</a></div></footer>
+</body>
+</html>

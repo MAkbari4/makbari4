@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Two thermal simulations covering steady heat dissipation in an aluminium heat sink and transient cooling of a steel gear.">
+  <title>Thermal Simulation of Heat Sink and Quenching Process · Mohammad Akbari</title>
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap">
+      <a class="brand" href="../index.html"><span class="initials" aria-hidden="true">MA</span>Mohammad Akbari</a>
+      <nav class="header-links" aria-label="Portfolio navigation">
+        <a href="../index.html#projects">All projects</a><a href="https://www.linkedin.com/in/makbari4">LinkedIn</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap coursework project-main" id="main">
+    <div class="hero case-hero">
+      <div class="hero-grid wrap">
+        <div>
+          <p class="kicker">Academic team project</p>
+          <h1>Thermal Simulation of Heat Sink and Quenching Process</h1>
+          <p class="summary">Two thermal simulations covering steady heat dissipation in an aluminium heat sink and transient cooling of a steel gear.</p>
+          </div>
+        <dl class="facts">
+          <div><dt class="kicker">Software</dt><dd>Salome-Meca</dd></div>
+          <div><dt class="kicker">Period</dt><dd>September 2024 to January 2025</dd></div>
+        </dl>
+      </div>
+    </div>
+    <div class="wrap case-frame"><nav class="contents case-nav" aria-label="On this page">
+            <span class="toc-label" aria-hidden="true">On this page</span><a href="#introduction">Introduction</a><a href="#method">Method</a><a href="#results">Results</a>
+          </nav>
+        <div class="case-content"><section class="chapter" id="introduction" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Introduction</h2>
+      <div class="chapter-body"><p class="lead">The team studied how heat spreads across a finned aluminium heat sink and how a gear cools during quenching. The first analysis looked at the steady temperature field. The second tracked how the field changed over time.</p></div>
+    </section>
+    <section class="chapter" id="method" aria-labelledby="method-heading">
+      <h2 id="method-heading">Method</h2>
+      <div class="chapter-body">
+        <div class="method-grid">
+          <section><h3>Heat sink</h3><p>We built and meshed the geometry in Salome-Meca and applied a prescribed heat flux and convection boundary conditions.</p></section>
+          <section><h3>Gear quenching</h3><p>We modelled a gear made of American Iron and Steel Institute (AISI) 4140 steel starting at 840 °C. The two cases used oil at 120 °C and water at 25 °C with temperature-dependent thermal inputs.</p></section>
+          <section><h3>My contribution</h3><p>I contributed to the modelling, analysis and report for both cases with my teammates.</p></section>
+        </div>
+        <div class="coursework-figures figure-grid single-figure">
+          <figure class="figure">
+            <a href="../assets/figures/gear-two-media.webp" aria-label="View full-size image: Early temperature fields during quenching">
+              <img src="../assets/figures/gear-two-media.webp" alt="Early temperature fields during quenching" width="1480" height="355" loading="lazy">
+            </a>
+            <figcaption><span class="figure-label">Early temperature fields during quenching.</span> The gear is shown at two seconds in oil at 120 °C (left) and water at 25 °C (right). Compare the values using the scale in each panel.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="chapter" id="results" aria-labelledby="results-heading">
+      <h2 id="results-heading">Results</h2>
+      <div class="chapter-body">
+        <div class="text result-copy">
+          <p>In the steady-state model, the heat sink was hottest near the prescribed heat input and cooler towards the fins. In the oil-quench model, the gear surface cooled first and the core showed a delayed response.</p>
+          <p>The quench simulations describe temperatures over time. Quantifying hardness or residual stress would require material transformation and mechanical analyses.</p>
+        </div>
+        <div class="coursework-figures figure-grid">
+          <figure class="figure">
+            <a href="../assets/figures/heat-sink-field.webp" aria-label="View full-size image: Heat-sink temperature field">
+              <img src="../assets/figures/heat-sink-field.webp" alt="Heat-sink temperature field" width="1480" height="509" loading="lazy">
+            </a>
+            <figcaption><span class="figure-label">Heat-sink temperature field.</span> The hottest zone is concentrated where heat is applied at the base, with cooler regions further away.</figcaption>
+          </figure>
+          <figure class="figure">
+            <a href="../assets/figures/gear-oil-history.webp" aria-label="View full-size image: Oil-quench temperature histories">
+              <img src="../assets/figures/gear-oil-history.webp" alt="Oil-quench temperature histories" width="1418" height="553" loading="lazy">
+            </a>
+            <figcaption><span class="figure-label">Oil-quench temperature histories.</span> Surface temperature (left) starts dropping earlier than core temperature (right). The two plots use different vertical scales.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </div></div></main>
+  <footer class="page-footer"><div class="wrap"><p>Mohammad Akbari · Turin, Italy</p><a href="#top">Back to top</a></div></footer>
+</body>
+</html>

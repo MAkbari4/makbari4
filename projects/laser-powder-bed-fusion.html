@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MSc thesis on Laser Powder Bed Fusion of Ti-13Nb-13Zr, covering 27 tested process conditions, materials characterisation and process trade-offs.">
+  <title>Laser Powder Bed Fusion of Ti-13Nb-13Zr · Mohammad Akbari</title>
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap">
+      <a class="brand" href="../index.html"><span class="initials" aria-hidden="true">MA</span>Mohammad Akbari</a>
+      <nav class="header-links" aria-label="Portfolio navigation">
+        <a href="../index.html#projects">All projects</a><a href="https://www.linkedin.com/in/makbari4">LinkedIn</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap project-main" id="main">
+    <div class="hero case-hero">
+      <div class="hero-grid wrap">
+        <div>
+          <p class="kicker">MSc thesis</p>
+          <h1>Laser Powder Bed Fusion of <span class="alloy">Ti-13Nb-13Zr</span></h1>
+          <p class="summary">Process optimisation and materials characterisation across 27 tested conditions.</p>
+          </div>
+        <dl class="facts">
+          <div><dt class="kicker">Institution</dt><dd>Politecnico di Torino</dd></div>
+          <div><dt class="kicker">Period</dt><dd>September 2025 to July 2026</dd></div>
+        </dl>
+      </div>
+    </div>
+
+    <div class="wrap case-frame"><nav class="contents case-nav" aria-label="On this page">
+            <span class="toc-label" aria-hidden="true">On this page</span><a href="#introduction">Introduction</a><a href="#method">Method</a><a href="#results">Results</a>
+          </nav>
+        <div class="case-content"><section class="chapter" id="introduction" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Introduction</h2>
+      <div class="chapter-body split">
+        <div class="text">
+          <p class="lead">How should laser power, scan speed and hatch spacing be chosen to build dense Ti-13Nb-13Zr parts with a smooth as-built surface?</p>
+          <p>This thesis investigated the processability of the near-beta titanium alloy using Laser Powder Bed Fusion (LPBF). I compared density and surface roughness across 27 conditions and examined melt-pool geometry, internal defects and local mechanical response in three representative specimens.</p>
+        </div>
+        <figure class="figure powder">
+          <img src="../assets/figures/powder.webp" alt="Scanning electron micrograph showing near-spherical Ti-13Nb-13Zr powder particles" width="544" height="620">
+          <figcaption><span class="figure-label">Starting material.</span> Scanning electron microscopy (SEM) shows the predominantly near-spherical Ti-13Nb-13Zr particles used as feedstock.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="chapter" id="method" aria-labelledby="method-heading">
+      <h2 id="method-heading">Method</h2>
+      <div class="chapter-body">
+        <p class="lead">I compared relative density and surface roughness across 27 LPBF conditions. Three specimens were selected to represent low, intermediate and high volumetric energy density (VED) in the tested range. S22 was also selected for elemental mapping and phase identification.</p>
+        <table class="comparison">
+          <caption>Process settings for the three selected specimens</caption>
+          <thead>
+            <tr><th scope="col">Specimen</th><th scope="col">Laser power<br>(W)</th><th scope="col">Scan speed<br>(mm/s)</th><th scope="col">Hatch spacing<br>(mm)</th><th scope="col">VED<br>(J/mm³)</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">S03 <small>Low VED</small></th><td>180</td><td>1,200</td><td>0.115</td><td>43.48</td></tr>
+            <tr><th scope="row">S22 <small>Intermediate VED</small></th><td>200</td><td>800</td><td>0.115</td><td>72.46</td></tr>
+            <tr><th scope="row">S27 <small>High VED</small></th><td>200</td><td>800</td><td>0.095</td><td>87.72</td></tr>
+          </tbody>
+        </table>
+        <p class="note">VED is laser power divided by the product of scan speed, hatch spacing and layer thickness. The layer thickness was 30 µm for all three specimens.</p>
+        <div class="method-grid">
+          <section><h3>Measurements</h3><p>I measured relative density by the Archimedes method and recorded two stylus roughness profiles per specimen. I used optical microscopy and ImageJ to quantify melt-pool width and depth.</p></section>
+          <section><h3>Laboratory data</h3><p>I interpreted supplied X-ray computed tomography (XCT), SEM with energy-dispersive X-ray spectroscopy (EDS) and nanoindentation data. I indexed supplied X-ray diffraction (XRD) peaks in HighScore Plus.</p></section>
+          <section><h3>Statistical analysis</h3><p>I fitted a second-order regression in Minitab to the Archimedes relative density data for all 27 conditions and examined process parameter contributions and interactions.</p></section>
+        </div>
+        <div class="figure-grid" aria-label="Characterisation figures">
+          <figure class="figure figure-wide">
+            <img src="../assets/figures/cross-sections.webp" alt="Etched cross-sections of S03, S22 and S27 with melt-pool outlines, scale bars and a build-direction arrow" width="1440" height="371" loading="lazy">
+            <figcaption><span class="figure-label">Optical microscopy.</span> Etched cross-sections of S03, S22 and S27 from left to right. The marked boundaries show where melt-pool width and depth were measured in ImageJ.</figcaption>
+          </figure>
+          <figure class="figure figure-wide">
+            <img src="../assets/figures/xct.webp" alt="Three XCT volume renderings for S03, S22 and S27 with internal defects coloured by diameter" width="1480" height="442" loading="lazy">
+            <figcaption><span class="figure-label">X-ray computed tomography.</span> The three volume renderings show where detectable internal defects were located in S03, S22 and S27, from left to right. Colours encode detected defect diameter in millimetres.</figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="../assets/figures/xrd.webp" alt="S22 X-ray diffraction pattern with indexed alpha or alpha-prime titanium peaks and weak features marked as beta" width="1266" height="894" loading="lazy">
+            <figcaption><span class="figure-label">X-ray diffraction of S22.</span> The indexed peaks are dominated by α/α′ titanium. Weak, overlapping features are consistent with a minor retained β contribution.</figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="../assets/figures/regression.webp" alt="Normalised parameter contributions to the relative density analysis: laser power 20.1 percent, scan speed 44.5 percent and hatch spacing 35.4 percent" width="1165" height="760" loading="lazy">
+            <figcaption><span class="figure-label">Normalised contributions.</span> The bars show the relative contributions of the three process parameters in the density analysis across 27 conditions.</figcaption>
+          </figure>
+        </div>
+        <div class="regression" aria-labelledby="regression-heading">
+          <h3 id="regression-heading">Relative density regression</h3>
+          <div class="text regression-copy">
+            <p>Scan speed ranked first (44.5%), followed by hatch spacing (35.4%) and laser power (20.1%). These are normalised contributions within the tested process window. Scan speed changes the laser–material interaction time, while hatch spacing changes the overlap between adjacent scan tracks. Both mechanisms can influence consolidation. The laser power × scan speed interaction (<i>p</i> = 0.044) indicates that the fitted effect of power varied with scan speed. Different parameter combinations can therefore warrant separate evaluation even when their VED values are similar.</p>
+            <p>The model had an R² of 58.29%, an adjusted R² of 36.21% and a predicted R² of 0.00%. The fitted model describes trends in the tested conditions. The predicted R² provides no evidence that the model can predict density reliably at untested settings.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter" id="results" aria-labelledby="results-heading">
+      <h2 id="results-heading">Results</h2>
+      <div class="chapter-body">
+        <p class="lead">S22 was selected for detailed characterisation. It achieved the highest measured relative density across all 27 conditions and the lowest XCT-detectable defect-volume fraction among the three scanned specimens.</p>
+        <h3 class="results-label">S22 at a glance</h3>
+        <dl class="results-band">
+          <div><dt>Archimedes relative density</dt><dd>99.55%</dd></div>
+          <div><dt>XCT-detectable defect-volume fraction</dt><dd>0.0187%</dd></div>
+          <div><dt>Dominant XRD phase<br>Possible minor retained β</dt><dd>α/α′-Ti</dd></div>
+        </dl>
+        <p class="note">The XCT fraction describes defects detectable at the chosen scan resolution and segmentation threshold. It measures a different quantity from the density deficit inferred from the Archimedes result. Overlapping XRD reflections limit discrimination between α and α′, and the weak β features support a qualitative phase assignment.</p>
+        <div class="split result-tail">
+          <div class="result-copy">
+            <h3>Surface finish and densification</h3>
+            <p>S22, at 72.46 J/mm³, had a mean surface roughness (Ra) of 2.11 µm. S27, at 87.72 J/mm³, produced the lowest Ra (1.60 µm). The preferred setting therefore depends on whether the priority is densification or as-built surface finish.</p>
+            <a class="external poster" href="https://sciforum.net/paper/34216">View the IOCME 2026 poster</a>
+          </div>
+          <figure class="figure">
+            <img src="../assets/figures/roughness.webp" alt="Scatter plot of arithmetic mean surface roughness against volumetric energy density for the 27 tested conditions" width="1404" height="936" loading="lazy">
+            <figcaption><span class="figure-label">Surface finish.</span> The points show that arithmetic mean roughness generally decreased with increasing VED across the tested conditions.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </div></div></main>
+  <footer class="page-footer"><div class="wrap"><p>Mohammad Akbari · Turin, Italy</p><a href="#top">Back to top</a></div></footer>
+</body>
+</html>

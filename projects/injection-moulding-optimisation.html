@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Comparing six material and gate configurations for the exterior surface of an injection-moulded part.">
+  <title>Injection Moulding Process Optimisation · Mohammad Akbari</title>
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap">
+      <a class="brand" href="../index.html"><span class="initials" aria-hidden="true">MA</span>Mohammad Akbari</a>
+      <nav class="header-links" aria-label="Portfolio navigation">
+        <a href="../index.html#projects">All projects</a><a href="https://www.linkedin.com/in/makbari4">LinkedIn</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap coursework project-main" id="main">
+    <div class="hero case-hero">
+      <div class="hero-grid wrap">
+        <div>
+          <p class="kicker">Academic team project</p>
+          <h1>Injection Moulding Process Optimisation</h1>
+          <p class="summary">Comparing six material and gate configurations for the exterior surface of an injection-moulded part.</p>
+          </div>
+        <dl class="facts">
+          <div><dt class="kicker">Software</dt><dd>Moldex3D</dd></div>
+          <div><dt class="kicker">Period</dt><dd>September 2024 to January 2025</dd></div>
+        </dl>
+      </div>
+    </div>
+    <div class="wrap case-frame"><nav class="contents case-nav" aria-label="On this page">
+            <span class="toc-label" aria-hidden="true">On this page</span><a href="#introduction">Introduction</a><a href="#method">Method</a><a href="#results">Results</a>
+          </nav>
+        <div class="case-content"><section class="chapter" id="introduction" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Introduction</h2>
+      <div class="chapter-body"><p class="lead">The project studied how a moulded part’s exterior surface could change with the polymer and the points where molten material enters the mould. The two polymers were acrylonitrile butadiene styrene (ABS) and polylactic acid (PLA).</p></div>
+    </section>
+    <section class="chapter" id="method" aria-labelledby="method-heading">
+      <h2 id="method-heading">Method</h2>
+      <div class="chapter-body">
+        <div class="method-grid">
+          <section><h3>Model setup</h3><p>I configured gates, runners and cooling channels in Moldex3D using the supplied part geometry.</p></section>
+          <section><h3>Six configurations</h3><p>I ran three ABS and three PLA cases, varying the number and positions of gates and selected process settings. We compared warpage, volumetric shrinkage and sink marks.</p></section>
+          <section><h3>My contribution</h3><p>I completed all software stages of the exercise. The team shared the analysis, interpretation and report writing.</p></section>
+        </div>
+        <div class="coursework-figures figure-grid single-figure">
+          <figure class="figure native-figure" style="--native-width: 425px">
+            <a href="../assets/figures/moulding-gates.webp" aria-label="View full-size image: Two-edge-gate configuration">
+              <img src="../assets/figures/moulding-gates.webp" alt="Two-edge-gate configuration" width="425" height="314" loading="lazy">
+            </a>
+            <figcaption><span class="figure-label">Two-edge-gate configuration.</span> The model view shows the runner and gate arrangement for the selected PLA case.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="chapter" id="results" aria-labelledby="results-heading">
+      <h2 id="results-heading">Results</h2>
+      <div class="chapter-body">
+        <div class="text result-copy">
+          <p>The PLA case with two edge gates produced the lowest simulated values of the six configurations for all three reported indicators: 0.718 mm warpage, 0.982% volumetric shrinkage and 0.16 mm sink-mark displacement.</p>
+          <p>The five-gate PLA case had lower warpage than the four-gate PLA case, while the four-gate case had lower volumetric shrinkage. These comparisons apply to the configurations as modelled, since gate layouts and some process settings changed together.</p>
+        </div>
+        <table class="comparison moulding-comparison">
+          <caption>Simulated results for the six configurations</caption>
+          <thead>
+            <tr><th scope="col">Material and gates</th><th scope="col">Warpage<br>(mm)</th><th scope="col">Volumetric shrinkage<br>(%)</th><th scope="col">Sink-mark displacement<br>(mm)</th></tr>
+          </thead>
+          <tbody>
+              <tr><th scope="row">ABS · 3 outer gates</th><td>1.131</td><td>2.654</td><td>0.45</td></tr>
+              <tr><th scope="row">ABS · 2 inner gates</th><td>1.127</td><td>2.622</td><td>0.22</td></tr>
+              <tr><th scope="row">ABS · 4 inner gates</th><td>1.185</td><td>2.762</td><td>0.20</td></tr>
+              <tr><th scope="row">PLA · 4 inner gates</th><td>0.795</td><td>1.829</td><td>0.18</td></tr>
+              <tr><th scope="row">PLA · 5 inner gates</th><td>0.786</td><td>2.320</td><td>0.20</td></tr>
+              <tr><th scope="row">PLA · 2 edge gates</th><td>0.718</td><td>0.982</td><td>0.16</td></tr>
+          </tbody>
+        </table>
+        <div class="coursework-figures figure-grid single-figure">
+          <figure class="figure native-figure" style="--native-width: 453px">
+            <a href="../assets/figures/moulding-contour.webp" aria-label="View full-size image: Selected case in Moldex3D">
+              <img src="../assets/figures/moulding-contour.webp" alt="Selected case in Moldex3D" width="453" height="308" loading="lazy">
+            </a>
+            <figcaption><span class="figure-label">Selected case in Moldex3D.</span> The colour contour shows the spatial distribution of a simulation output on the outer surface. The comparison table lists the reported values for warpage, shrinkage and sink-mark displacement.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </div></div></main>
+  <footer class="page-footer"><div class="wrap"><p>Mohammad Akbari · Turin, Italy</p><a href="#top">Back to top</a></div></footer>
+</body>
+</html>
